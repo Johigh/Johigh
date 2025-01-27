@@ -19,28 +19,28 @@ Anticipated price for the next 5 years
 */
 
 #include <stdio.h> 
-int calculate_inflation(price_24, p_25, p_26, p_27, p_28, p_29){
+#define INFLATE_RATE .03
 
-    
-    
-
-}
 int main(){
     double price_24, p_25, p_26, p_27, p_28, p_29;
-    double inflate_rate; 
 
-
-
-    printf("Enter the price of an item in 2024: \n");
+    printf("Enter the price of the item in 2024:");
     scanf("%lf", &price_24 );
 
+    p_25 = (price_24 * INFLATE_RATE) + price_24;
+    printf("The anticipated price in 2025 is %.2lf  \n", p_25);
 
+    p_26 = (p_25 * INFLATE_RATE) + p_25;
+    printf("The anticipated price in 2026 is %.2lf \n", p_26);
 
-    printf("The anticipated price in 2025 is  \n");
-    printf("The anticipated price in 2026 is  \n");
-    printf("The anticipated price in 2027 is  \n");
-    printf("The anticipated price in 2028 is  \n");
-    printf("The anticipated price in 2029 is  \n");
+    p_27 = (p_26 * INFLATE_RATE) + p_26; 
+    printf("The anticipated price in 2027 is %.2lf \n", p_27);
+
+    p_28 = (p_27 * INFLATE_RATE) + p_27;
+    printf("The anticipated price in 2028 is %.2lf \n", p_28);
+
+    p_29 = (p_28 * INFLATE_RATE) + p_28;
+    printf("The anticipated price in 2029 is %.2lf \n", p_29);
 
     return 0; 
 

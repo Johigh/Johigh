@@ -14,4 +14,4 @@ Strings and string library functions in <string.h> are not allowed in this progr
 
 #include <stdio.h>
 
-int main 
+int main(){}
