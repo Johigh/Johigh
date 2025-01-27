@@ -17,3 +17,31 @@ You must read one floating point number indicating the price of an item.
 Output
 Anticipated price for the next 5 years
 */
+
+#include <stdio.h> 
+int calculate_inflation(price_24, p_25, p_26, p_27, p_28, p_29){
+
+    
+    
+
+}
+int main(){
+    double price_24, p_25, p_26, p_27, p_28, p_29;
+    double inflate_rate; 
+
+
+
+    printf("Enter the price of an item in 2024: \n");
+    scanf("%lf", &price_24 );
+
+
+
+    printf("The anticipated price in 2025 is  \n");
+    printf("The anticipated price in 2026 is  \n");
+    printf("The anticipated price in 2027 is  \n");
+    printf("The anticipated price in 2028 is  \n");
+    printf("The anticipated price in 2029 is  \n");
+
+    return 0; 
+
+}

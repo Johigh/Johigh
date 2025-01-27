@@ -10,3 +10,8 @@ do-while loop and switch statement are required to implement the conversion.
 Strings and string library functions in <string.h> are not allowed in this program.
 
 */
+
+
+#include <stdio.h>
+
+int main 
